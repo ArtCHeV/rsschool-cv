@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artem Chernykh - CV</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Artem Chernykh - CV</h1>
+    <img src="photo.jpg" alt="Profile Image" width="400" >
+
+    <div class="section">
+      <h2>My Contact Info</h2>
+      <ul>
+            <li><strong>Address:</strong> Saint-Petersburg, Russia</li>
+            <li><strong>E-mail:</strong> <a href="mailto:artem.chernykh.v@gmail.com">artem.chernykh.v@gmail.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/artchev/">https://www.linkedin.com/in/artchev/</a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/ArtCHeV/">ArtCHeV</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <p>I am currently working in technical support, continuously improving my skills and knowledge. I have a passion for good coffee, traveling, and focusing on one thing at a time.</p>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <h3>industrial climber</h3>
+      <p>entrepreneur</p>
+      <p> 2015-2022</p>
+      <h3>technical support</h3>
+      <p> Line-r</p>
+      <p>2022-2023</p>
+    </div>
+
+    <div class="section">
+                <h2>Skills</h2>
+        <ul>
+            <li>Python (basic knowledge)</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git (basic knowledge)</li>
+            <li>Windows OS</li>
+            <li>Linux (Debian, Armbian)</li>
+            <li>Android</li>
+            <li>Editors: VS Code</li>
+            <li>English A1</li>
+            <li>Google advanced search</li>
+        </ul>
+    </div>
+
+    <div class="section">
+                    <h3>Code example</h3>
+        <pre>
+            <code>
+                '''python'''
+                import string
+                
+                alf = string.ascii_lowercase
+                
+                def alphabet_position(text):
+                    text = text.lower()
+                    result = ''
+                    for c in text:
+                        for i in range(len(alf)):
+                            if alf[i] == c:
+                                result += (str(1+i)+' ')
+                    return result.strip()
+            </code>
+          </pre>
+
+          <a href="https://github.com/ArtCHeV/wifi_password_viewer">wifi password viewer</a>
+    </div>
+  </div>
+</body>
+</html>
 
